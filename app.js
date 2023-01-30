@@ -1,4 +1,10 @@
-const title = document.getElementById("title");
+const loginForm = document.querySelector("#login-form");
+const loginInput = loginForm.querySelector("input");
+const loginButton = loginForm.querySelector("button");
+// also be written as:
+// const loginInput = document.querySelector("#login-form input");
 
-console.log(title.id);
-console.log(title.className);
+function onLoginBtnClick() {
+  console.log("click");
+}
+loginButton.addEventListener("click", onLoginBtnClick);
