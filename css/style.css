@@ -3,3 +3,6 @@ body {
     display: flexbox;
 }
 
+.hidden {
+    display: none;
+}
