@@ -42,3 +42,10 @@ const quotes = [
     author: "Matthew 6:33",
   },
 ];
+
+const quote = document.querySelector("#quote span:first-child");
+const author = document.querySelector("#quote span:last-child");
+let quotesNum = quotes.length;
+const randomNum = Math.floor(Math.random() * quotesNum);
+
+console.log(quotes[randomNum]);
